@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Listes fermées affichées à l'utilisatrice (libellés en français).
+        Les valeurs stockées en base (codes) sont dans utils/AppConstants.java
+        et sont dans le MÊME ORDRE que ces libellés : position i <-> code i.
+    -->
+
+    <!-- 24 gouvernorats (ordre = codes ISO 3166-2:TN de AppConstants.GOVERNORATE_CODES) -->
+    <string-array name="governorates">
+        <item>Tunis</item>
+        <item>Ariana</item>
+        <item>Ben Arous</item>
+        <item>La Manouba</item>
+        <item>Nabeul</item>
+        <item>Zaghouan</item>
+        <item>Bizerte</item>
+        <item>Béja</item>
+        <item>Jendouba</item>
+        <item>Le Kef</item>
+        <item>Siliana</item>
+        <item>Kairouan</item>
+        <item>Kasserine</item>
+        <item>Sidi Bouzid</item>
+        <item>Sousse</item>
+        <item>Monastir</item>
+        <item>Mahdia</item>
+        <item>Sfax</item>
+        <item>Gafsa</item>
+        <item>Tozeur</item>
+        <item>Kébili</item>
+        <item>Gabès</item>
+        <item>Médenine</item>
+        <item>Tataouine</item>
+    </string-array>
+
+    <!-- Tranches d'âge (AppConstants.AGE_BANDS) -->
+    <string-array name="age_bands">
+        <item>18 – 29 ans</item>
+        <item>30 – 39 ans</item>
+        <item>40 – 49 ans</item>
+        <item>50 – 59 ans</item>
+        <item>60 ans et plus</item>
+    </string-array>
+
+    <!-- Langue préférée (AppConstants.LANGUAGES) -->
+    <string-array name="languages">
+        <item>Darija</item>
+        <item>Français</item>
+        <item>Arabe standard</item>
+        <item>Mélange</item>
+    </string-array>
+
+    <!-- ===== Espace santé et bibliothèque (même ordre que AppConstants ; le dernier « Je préfère ne pas répondre » des listes sans ce code = valeur null) ===== -->
+    <string-array name="cancer_types">
+        <item>Cancer du sein</item>
+        <item>Cancer du col de l\'utérus</item>
+        <item>Autre</item>
+        <item>Je préfère ne pas répondre</item>
+    </string-array>
+
+    <string-array name="care_phases">
+        <item>Dépistage / suspicion</item>
+        <item>Diagnostic</item>
+        <item>Avant le traitement</item>
+        <item>Traitement en cours</item>
+        <item>Suivi après traitement</item>
+        <item>Rémission</item>
+        <item>Récidive</item>
+        <item>Je préfère ne pas répondre</item>
+    </string-array>
+
+    <string-array name="diagnosis_bands">
+        <item>Moins d\'un an</item>
+        <item>1 à 2 ans</item>
+        <item>3 à 5 ans</item>
+        <item>Plus de 5 ans</item>
+        <item>Je préfère ne pas répondre</item>
+    </string-array>
+
+    <string-array name="facility_types">
+        <item>Hôpital public</item>
+        <item>Clinique privée</item>
+        <item>À l\'étranger</item>
+        <item>Je préfère ne pas répondre</item>
+    </string-array>
+
+    <string-array name="treatment_types">
+        <item>Chirurgie</item>
+        <item>Reconstruction</item>
+        <item>Chimiothérapie</item>
+        <item>Radiothérapie</item>
+        <item>Hormonothérapie</item>
+        <item>Thérapie ciblée</item>
+        <item>Immunothérapie</item>
+        <item>Je préfère ne pas répondre</item>
+    </string-array>
+
+    <string-array name="side_effects">
+        <item>Fatigue</item>
+        <item>Nausées</item>
+        <item>Douleurs</item>
+        <item>Perte de cheveux</item>
+        <item>Lymphœdème</item>
+        <item>Bouffées de chaleur</item>
+        <item>Troubles du sommeil</item>
+        <item>Anxiété</item>
+        <item>Moral en baisse</item>
+        <item>Problèmes de peau</item>
+        <item>Fourmillements</item>
+    </string-array>
+
+    <string-array name="kb_topics">
+        <item>Diagnostic</item>
+        <item>Traitements</item>
+        <item>Effets secondaires</item>
+        <item>Alimentation</item>
+        <item>Bien-être émotionnel</item>
+        <item>Fertilité</item>
+        <item>Vie quotidienne</item>
+        <item>Droits et CNAM</item>
+    </string-array>
+
+    <string-array name="content_languages">
+        <item>Français</item>
+        <item>Arabe standard</item>
+        <item>Darija</item>
+    </string-array>
+
+    <string-array name="evidence_levels">
+        <item>Élevé</item>
+        <item>Modéré</item>
+        <item>Faible</item>
+        <item>Avis d\'experts</item>
+    </string-array>
+
+    <string-array name="source_types">
+        <item>Recommandation clinique</item>
+        <item>Article scientifique</item>
+        <item>Site institutionnel</item>
+        <item>Consensus d\'experts</item>
+        <item>Association de patientes</item>
+    </string-array>
+
+    <!-- ===== Annuaire (même ordre que AppConstants) ===== -->
+    <string-array name="service_types">
+        <item>Oncologie</item>
+        <item>Soutien psychologique</item>
+        <item>Aide juridique</item>
+        <item>Fertilité</item>
+        <item>Aide financière</item>
+        <item>Soutien entre pairs</item>
+        <item>Prothèses et perruques</item>
+        <item>Transport</item>
+        <item>Aide CNAM</item>
+    </string-array>
+    <string-array name="costs">
+        <item>Gratuit</item>
+        <item>Pris en charge par la CNAM</item>
+        <item>Payant</item>
+        <item>Coût non communiqué</item>
+    </string-array>
+    <string-array name="verification_methods">
+        <item>appel téléphonique</item>
+        <item>visite sur place</item>
+        <item>confirmation d\'un partenaire</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Réponses du compagnon en DARIJA (arabe de Tunisie).
+    Utilisées quand la question est détectée en darija (LocalizedText).
+    Les autres textes de l'interface viennent de values-ar/ (repli automatique d'Android).
+-->
+<resources>
+    <string name="chat_answer_intro_fmt">هاذا شنوة تقول البطاقة «%1$s»:\n\n%2$s</string>
+    <string name="chat_answer_outro">كان عندك سؤال على حالتك، احكي مع الفريق الطبي متاعك.</string>
+    <string name="chat_answer_other_language_fmt">البطاقة هاذي موجودة كان بـ: %1$s.</string>
+    <string name="chat_read_card">اقراي البطاقة الكل</string>
+    <string name="chat_no_match">ما لقيتش بطاقة معتمدة تجاوب على السؤال هذا. ما نحبش نجاوب من راسي: الدليل ينجم يوجهك لخدمة تناسبك، والفريق الطبي متاعك هو الأحسن باش يجاوبك.</string>
+    <string name="chat_open_directory">حلّي الدليل</string>
+    <string name="chat_dosage">ما نجمش نعطيك جرعة دواء ولا ننصحك بدواء: هذا يتبدّل حسب حالتك، واللي يعرفها كان الفريق الطبي متاعك. اكتبي سؤالك واسألي الطبيب ولا الصيدلي متاعك.</string>
+    <string name="chat_diagnosis">ما نجمش نعطيك تشخيص. كان الطبيب، بعد ما يفحصك، ينجم يجاوب على السؤال هذا. كان فما حاجة مقلقتك، خوذي موعد مع الطبيب ولا الفريق الطبي متاعك.</string>
+    <string name="chat_distress_title">إنتي موش وحدك</string>
+    <string name="chat_distress_text">اللي قاعدة تعيشي فيه صعيب، ومن حقك تلقاي المعاونة توّة. احكي في أقرب وقت مع شخص تثقي فيه ولا مع الفريق الطبي متاعك. واحد من فريق شفاء ولّى على علم.</string>
+    <string name="chat_distress_resource">خط الإصغاء: النومرو يحطّو فريق شفاء</string>
+    <string name="chat_distress_emergency">كان فما خطر توّة: نومرو الطوارئ يحطّو فريق شفاء</string>
+    <string name="chat_distress_services">خدمات الدعم النفسي</string>
+</resources>

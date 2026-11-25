@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Libellés arabes des listes fermées (même ordre que values/arrays.xml). -->
+<resources>
+    <string-array name="governorates">
+        <item>تونس</item>
+        <item>أريانة</item>
+        <item>بن عروس</item>
+        <item>منوبة</item>
+        <item>نابل</item>
+        <item>زغوان</item>
+        <item>بنزرت</item>
+        <item>باجة</item>
+        <item>جندوبة</item>
+        <item>الكاف</item>
+        <item>سليانة</item>
+        <item>القيروان</item>
+        <item>القصرين</item>
+        <item>سيدي بوزيد</item>
+        <item>سوسة</item>
+        <item>المنستير</item>
+        <item>المهدية</item>
+        <item>صفاقس</item>
+        <item>قفصة</item>
+        <item>توزر</item>
+        <item>قبلي</item>
+        <item>قابس</item>
+        <item>مدنين</item>
+        <item>تطاوين</item>
+    </string-array>
+
+    <string-array name="age_bands">
+        <item>18 – 29 سنة</item>
+        <item>30 – 39 سنة</item>
+        <item>40 – 49 سنة</item>
+        <item>50 – 59 سنة</item>
+        <item>60 سنة فأكثر</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>الدارجة</item>
+        <item>الفرنسية</item>
+        <item>العربية الفصحى</item>
+        <item>مزيج</item>
+    </string-array>
+
+    <!-- ===== الفضاء الصحي والمكتبة ===== -->
+    <string-array name="cancer_types">
+        <item>سرطان الثدي</item>
+        <item>سرطان عنق الرحم</item>
+        <item>آخر</item>
+        <item>أفضّل عدم الإجابة</item>
+    </string-array>
+
+    <string-array name="care_phases">
+        <item>الكشف / الاشتباه</item>
+        <item>التشخيص</item>
+        <item>قبل العلاج</item>
+        <item>العلاج جارٍ</item>
+        <item>المتابعة بعد العلاج</item>
+        <item>هدأة المرض</item>
+        <item>عودة المرض</item>
+        <item>أفضّل عدم الإجابة</item>
+    </string-array>
+
+    <string-array name="diagnosis_bands">
+        <item>أقل من سنة</item>
+        <item>من سنة إلى سنتين</item>
+        <item>من 3 إلى 5 سنوات</item>
+        <item>أكثر من 5 سنوات</item>
+        <item>أفضّل عدم الإجابة</item>
+    </string-array>
+
+    <string-array name="facility_types">
+        <item>مستشفى عمومي</item>
+        <item>مصحة خاصة</item>
+        <item>في الخارج</item>
+        <item>أفضّل عدم الإجابة</item>
+    </string-array>
+
+    <string-array name="treatment_types">
+        <item>الجراحة</item>
+        <item>إعادة البناء</item>
+        <item>العلاج الكيميائي</item>
+        <item>العلاج الإشعاعي</item>
+        <item>العلاج الهرموني</item>
+        <item>العلاج الموجّه</item>
+        <item>العلاج المناعي</item>
+        <item>أفضّل عدم الإجابة</item>
+    </string-array>
+
+    <string-array name="side_effects">
+        <item>التعب</item>
+        <item>الغثيان</item>
+        <item>الآلام</item>
+        <item>تساقط الشعر</item>
+        <item>الوذمة اللمفية</item>
+        <item>الهبّات الساخنة</item>
+        <item>اضطرابات النوم</item>
+        <item>القلق</item>
+        <item>انخفاض المعنويات</item>
+        <item>مشاكل الجلد</item>
+        <item>التنميل</item>
+    </string-array>
+
+    <string-array name="kb_topics">
+        <item>التشخيص</item>
+        <item>العلاجات</item>
+        <item>الآثار الجانبية</item>
+        <item>التغذية</item>
+        <item>الصحة النفسية</item>
+        <item>الخصوبة</item>
+        <item>الحياة اليومية</item>
+        <item>الحقوق والكنام</item>
+    </string-array>
+
+    <string-array name="content_languages">
+        <item>الفرنسية</item>
+        <item>العربية الفصحى</item>
+        <item>الدارجة</item>
+    </string-array>
+
+    <string-array name="evidence_levels">
+        <item>مرتفع</item>
+        <item>متوسط</item>
+        <item>ضعيف</item>
+        <item>رأي الخبراء</item>
+    </string-array>
+
+    <string-array name="source_types">
+        <item>توصية سريرية</item>
+        <item>مقال علمي</item>
+        <item>موقع مؤسساتي</item>
+        <item>إجماع الخبراء</item>
+        <item>جمعية مريضات</item>
+    </string-array>
+
+    <!-- ===== الدليل ===== -->
+    <string-array name="service_types">
+        <item>الأورام</item>
+        <item>الدعم النفسي</item>
+        <item>المساعدة القانونية</item>
+        <item>الخصوبة</item>
+        <item>المساعدة المالية</item>
+        <item>دعم الأقران</item>
+        <item>الأطراف الاصطناعية والشعر المستعار</item>
+        <item>النقل</item>
+        <item>مساعدة الكنام</item>
+    </string-array>
+    <string-array name="costs">
+        <item>مجاني</item>
+        <item>تتكفّل به الكنام</item>
+        <item>بمقابل</item>
+        <item>التكلفة غير معلنة</item>
+    </string-array>
+    <string-array name="verification_methods">
+        <item>مكالمة هاتفية</item>
+        <item>زيارة ميدانية</item>
+        <item>تأكيد من شريك</item>
+    </string-array>
+</resources>

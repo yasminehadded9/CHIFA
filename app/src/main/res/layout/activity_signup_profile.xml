@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    android:orientation="vertical"
+    tools:context=".activities.SignupProfileActivity">
+
+    <include layout="@layout/layout_step_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/space_l">
+
+            <!-- Tranche d'âge -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilAgeBand"
+                style="@style/Widget.Chifaa.TextInput.Dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/field_age_band"
+                app:startIconDrawable="@drawable/ic_cake">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/acAgeBand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    app:simpleItems="@array/age_bands" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Gouvernorat -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilGovernorate"
+                style="@style/Widget.Chifaa.TextInput.Dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:hint="@string/field_governorate"
+                app:helperText="@string/helper_governorate"
+                app:startIconDrawable="@drawable/ic_place">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/acGovernorate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    app:simpleItems="@array/governorates" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Langue préférée -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilLanguage"
+                style="@style/Widget.Chifaa.TextInput.Dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:hint="@string/field_language"
+                app:startIconDrawable="@drawable/ic_chat">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/acLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    app:simpleItems="@array/languages" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:text="@string/required_legend"
+                android:textAppearance="@style/TextAppearance.Chifaa.Caption" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Chifaa.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_l"
+        android:onClick="continuer"
+        android:text="@string/action_continue"
+        app:icon="@drawable/ic_arrow_forward"
+        app:iconGravity="textEnd" />
+</LinearLayout>

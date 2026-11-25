@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ affiche un écran de démarrage système : on l'harmonise
+         avec notre SplashActivity pour éviter un "double splash" visible. -->
+    <style name="Theme.Chifaa.Splash" parent="Base.Theme.Chifaa.Splash">
+        <item name="android:windowSplashScreenBackground">@color/brand_plum</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+    </style>
+</resources>

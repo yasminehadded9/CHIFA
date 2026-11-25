@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Palette de marque CHIFAA ===== -->
+    <color name="brand_plum">#4A1D4F</color>          <!-- Prune profonde : confiance, sérieux -->
+    <color name="brand_plum_light">#6B3570</color>
+    <color name="brand_raspberry">#B83280</color>     <!-- Framboise : couleur principale -->
+    <color name="brand_rose">#E879A9</color>          <!-- Rose doux : ruban -->
+    <color name="brand_rose_soft">#FCE7F1</color>     <!-- Fond rosé très clair -->
+    <color name="brand_teal">#2A9D8F</color>          <!-- Vert d'eau : apaisement -->
+    <color name="brand_teal_soft">#DDF3F0</color>
+    <color name="brand_amber">#E9A23B</color>
+
+    <!-- ===== Fonds et surfaces ===== -->
+    <color name="bg_app">#FFF8FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F7EEF2</color>
+    <color name="outline">#E6D3DC</color>
+    <color name="divider">#EFE3E9</color>
+
+    <!-- ===== Textes ===== -->
+    <color name="text_primary">#2B1A2E</color>
+    <color name="text_secondary">#6E5A72</color>
+    <color name="text_hint">#A08FA4</color>
+    <color name="text_on_brand">#FFFFFF</color>
+    <color name="text_on_brand_soft">#E6FFFFFF</color> <!-- blanc 90 % -->
+
+    <!-- ===== États (contrôle de saisie, messages) ===== -->
+    <color name="state_error">#C62828</color>
+    <color name="state_error_soft">#FDECEC</color>
+    <color name="state_success">#2E7D32</color>
+    <color name="state_success_soft">#E8F5E9</color>
+    <color name="state_warning">#B7791F</color>
+    <color name="state_warning_soft">#FFF6E5</color>
+
+    <!-- ===== Transparences utiles ===== -->
+    <color name="white_12">#1FFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

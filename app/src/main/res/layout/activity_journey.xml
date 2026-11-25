@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mon parcours (M3) : chaque question propose "Je préfère ne pas répondre". -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    android:orientation="vertical"
+    tools:context=".activities.JourneyActivity">
+
+    <include layout="@layout/layout_step_header" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollJourney"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/space_l">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilCancerType"
+                style="@style/Widget.Chifaa.TextInput.Dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/field_cancer_type">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/acCancerType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    app:simpleItems="@array/cancer_types" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilCarePhase"
+                style="@style/Widget.Chifaa.TextInput.Dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="@string/field_care_phase">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/acCarePhase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    app:simpleItems="@array/care_phases" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDiagnosisBand"
+                style="@style/Widget.Chifaa.TextInput.Dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="@string/field_diagnosis_band">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/acDiagnosisBand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    app:simpleItems="@array/diagnosis_bands" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Année : saisie OU "je préfère ne pas répondre" -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDiagnosisYear"
+                style="@style/Widget.Chifaa.TextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="@string/field_diagnosis_year"
+                app:helperText="@string/helper_diagnosis_year"
+                app:startIconDrawable="@drawable/ic_calendar">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etDiagnosisYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textDirection="ltr" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/cbYearSkip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/touch_min"
+                android:text="@string/journey_year_skip"
+                android:textColor="@color/text_secondary"
+                app:buttonTint="@color/brand_raspberry" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilFacility"
+                style="@style/Widget.Chifaa.TextInput.Dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:hint="@string/field_facility">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/acFacility"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    app:simpleItems="@array/facility_types" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Traitements : choix multiples (puces) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_l"
+                android:text="@string/journey_treatments_label"
+                android:textAppearance="@style/TextAppearance.Chifaa.Title"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/journey_treatments_hint"
+                android:textAppearance="@style/TextAppearance.Chifaa.Caption" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipsTreatments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_s" />
+
+            <TextView
+                android:id="@+id/tvTreatmentsError"
+                style="@style/Chifaa.ErrorText" />
+
+            <!-- Fertilité : Oui / Non / Je préfère ne pas répondre -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_l"
+                android:text="@string/journey_fertility_label"
+                android:textAppearance="@style/TextAppearance.Chifaa.Title"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgFertility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_xs">
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/rbFertilityYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/touch_min"
+                    android:text="@string/answer_yes"
+                    app:buttonTint="@color/brand_raspberry" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/rbFertilityNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/touch_min"
+                    android:text="@string/answer_no"
+                    app:buttonTint="@color/brand_raspberry" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/rbFertilitySkip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/touch_min"
+                    android:text="@string/answer_skip"
+                    app:buttonTint="@color/brand_raspberry" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvFertilityError"
+                style="@style/Chifaa.ErrorText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:text="@string/required_legend"
+                android:textAppearance="@style/TextAppearance.Chifaa.Caption" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Chifaa.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_l"
+        android:onClick="enregistrer"
+        android:text="@string/journey_save"
+        app:icon="@drawable/ic_check_circle"
+        app:iconGravity="textStart" />
+</LinearLayout>

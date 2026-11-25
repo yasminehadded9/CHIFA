@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== Thème principal de l'application (fond clair) ===== -->
+    <style name="Theme.Chifaa" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_raspberry</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_rose_soft</item>
+        <item name="colorOnPrimaryContainer">@color/brand_plum</item>
+        <item name="colorSecondary">@color/brand_teal</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/brand_teal_soft</item>
+        <item name="colorOnSecondaryContainer">@color/text_primary</item>
+        <item name="colorTertiary">@color/brand_plum</item>
+        <item name="colorError">@color/state_error</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="android:colorBackground">@color/bg_app</item>
+        <item name="android:windowBackground">@color/bg_app</item>
+
+        <!-- Barre d'état claire avec icônes sombres -->
+        <item name="android:statusBarColor">@color/bg_app</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/brand_plum</item>
+    </style>
+
+    <!-- ===== Variante "marque" : barre d'état prune (Accueil, Splash) ===== -->
+    <style name="Theme.Chifaa.Brand" parent="Theme.Chifaa">
+        <item name="android:statusBarColor">@color/brand_plum</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- ===== Splash : base commune à toutes les versions d'Android ===== -->
+    <style name="Base.Theme.Chifaa.Splash" parent="Theme.Chifaa.Brand">
+        <item name="android:windowBackground">@drawable/bg_gradient_brand</item>
+        <item name="android:navigationBarColor">@color/brand_raspberry</item>
+    </style>
+
+    <!-- Sur Android < 12, aucun réglage supplémentaire -->
+    <style name="Theme.Chifaa.Splash" parent="Base.Theme.Chifaa.Splash" />
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    android:orientation="vertical"
+    tools:context=".activities.ConsentActivity">
+
+    <include layout="@layout/layout_step_header" />
+
+    <ScrollView
+        android:id="@+id/scrollConsent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/space_l">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardConsent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/surface"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/outline"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <!-- Icône + badge Obligatoire / Facultatif -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:background="@drawable/bg_icon_tile">
+
+                            <ImageView
+                                android:id="@+id/ivConsentIcon"
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:layout_gravity="center"
+                                android:importantForAccessibility="no"
+                                app:tint="@color/brand_raspberry"
+                                tools:src="@drawable/ic_shield" />
+                        </FrameLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/tvConsentBadge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_badge_required"
+                            android:paddingStart="12dp"
+                            android:paddingTop="5dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="5dp"
+                            android:textColor="@color/brand_raspberry"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            tools:text="Obligatoire" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvConsentTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_m"
+                        android:textAppearance="@style/TextAppearance.Chifaa.Title"
+                        android:textSize="20sp"
+                        tools:text="Utilisation du service" />
+
+                    <TextView
+                        android:id="@+id/tvConsentText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_s"
+                        android:textAppearance="@style/TextAppearance.Chifaa.Body"
+                        tools:text="@string/consent_service_text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_m"
+                        android:text="@string/consent_data_label"
+                        android:textColor="@color/text_primary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvConsentData"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_xs"
+                        android:textAppearance="@style/TextAppearance.Chifaa.Caption"
+                        tools:text="@string/consent_service_data" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/space_m"
+                        android:background="@color/divider" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/consent_rights"
+                        android:textAppearance="@style/TextAppearance.Chifaa.Caption"
+                        android:textColor="@color/brand_teal" />
+
+                    <TextView
+                        android:id="@+id/tvConsentVersion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_xs"
+                        android:textAppearance="@style/TextAppearance.Chifaa.Caption"
+                        android:textColor="@color/text_hint"
+                        android:textSize="12sp"
+                        tools:text="Texte v1.0 · recueilli dans l'application" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Case "J'ai lu et compris" -->
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/cbRead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:minHeight="@dimen/touch_min"
+                android:text="@string/consent_checkbox"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                app:buttonTint="@color/brand_raspberry" />
+
+            <TextView
+                android:id="@+id/tvConsentError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_s"
+                android:accessibilityLiveRegion="polite"
+                android:text="@string/consent_error_checkbox"
+                android:textAppearance="@style/TextAppearance.Chifaa.Caption"
+                android:textColor="@color/state_error"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Boutons d'action fixés en bas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_l">
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Chifaa.Button.Outlined"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:onClick="refuser"
+            android:text="@string/consent_refuse" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Chifaa.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="accepter"
+            android:text="@string/consent_accept" />
+    </LinearLayout>
+</LinearLayout>

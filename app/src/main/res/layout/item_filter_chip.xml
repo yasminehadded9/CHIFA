@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Puce de filtre/choix réutilisable (créée en Java avec LayoutInflater). -->
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Material3.Chip.Filter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/selector_chip_text"
+    app:checkedIconTint="@color/brand_raspberry"
+    app:chipBackgroundColor="@color/selector_chip_bg"
+    app:chipStrokeColor="@color/selector_chip_stroke"
+    app:chipStrokeWidth="1dp" />

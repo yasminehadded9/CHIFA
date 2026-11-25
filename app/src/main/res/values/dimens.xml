@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Espacements (grille de 4 dp) -->
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_s">8dp</dimen>
+    <dimen name="space_m">16dp</dimen>
+    <dimen name="space_l">24dp</dimen>
+    <dimen name="space_xl">32dp</dimen>
+    <dimen name="space_xxl">48dp</dimen>
+
+    <!-- Arrondis -->
+    <dimen name="radius_s">10dp</dimen>
+    <dimen name="radius_m">16dp</dimen>
+    <dimen name="radius_l">28dp</dimen>
+
+    <!-- Composants -->
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="touch_min">48dp</dimen>
+
+    <!-- Tailles de texte -->
+    <dimen name="text_display">30sp</dimen>
+    <dimen name="text_headline">24sp</dimen>
+    <dimen name="text_title">18sp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_caption">13sp</dimen>
+</resources>

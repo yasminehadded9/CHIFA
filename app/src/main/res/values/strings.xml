@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Général ===== -->
+    <string name="app_name" translatable="false">CHIFAA</string>
+    <string name="app_tagline">Ensemble, à chaque étape</string>
+    <string name="version_label">Version %1$s · Données fictives</string>
+    <string name="cd_logo">Logo CHIFAA, ruban rose</string>
+
+    <!-- ===== Onboarding ===== -->
+    <string name="onb_skip">Passer</string>
+    <string name="onb_next">Suivant</string>
+    <string name="onb_start">Commencer</string>
+    <string name="onb_step">Étape %1$d sur %2$d</string>
+
+    <string name="onb_title_1">Un compagnon à vos côtés</string>
+    <string name="onb_desc_1">Posez vos questions en darija, en français ou en arabe. CHIFAA vous répond à partir de fiches relues par des cliniciens.</string>
+
+    <string name="onb_title_2">Des repères fiables</string>
+    <string name="onb_desc_2">Suivez votre parcours, notez vos bilans et trouvez près de chez vous les services d\'oncologie, de soutien psychologique ou d\'aide CNAM.</string>
+
+    <string name="onb_title_3">Vos données vous appartiennent</string>
+    <string name="onb_desc_3">Vous utilisez un pseudonyme. Chaque consentement est séparé et vous pouvez le retirer à tout moment.</string>
+
+    <!-- ===== Accueil ===== -->
+    <string name="welcome_title">Bienvenue sur CHIFAA</string>
+    <string name="welcome_subtitle">Un espace bienveillant pour les femmes touchées par le cancer du sein.</string>
+    <string name="welcome_card_title">Commençons</string>
+    <string name="welcome_card_text">Créez votre espace en quelques minutes. Seul votre numéro de téléphone est nécessaire, et il reste chiffré.</string>
+    <string name="welcome_create_account">Créer mon compte</string>
+    <string name="welcome_login">J\'ai déjà un compte</string>
+    <string name="welcome_or">ou</string>
+    <string name="welcome_staff">Accès équipe CHIFAA</string>
+    <string name="welcome_disclaimer">CHIFAA ne pose aucun diagnostic et ne donne aucune posologie. Pour toute question médicale, adressez-vous à votre équipe soignante.</string>
+    <string name="welcome_privacy">Données pseudonymisées et protégées</string>
+
+    <!-- ===== Messages temporaires (étapes à venir) ===== -->
+    <string name="coming_soon_staff">L\'espace équipe arrive avec le back-office.</string>
+
+    <!-- ===== Commun ===== -->
+    <string name="cd_back">Retour</string>
+    <string name="action_continue">Continuer</string>
+    <string name="required_legend">* Champ obligatoire</string>
+    <string name="error_generic">Une erreur est survenue. Réessayez dans un instant.</string>
+    <string name="signup_step">Étape %1$d sur %2$d</string>
+
+    <!-- ===== Inscription · 1. Âge ===== -->
+    <string name="age_title">Quel âge avez-vous ?</string>
+    <string name="age_subtitle">CHIFAA est réservée aux femmes majeures. Cette information n\'est pas partagée.</string>
+    <string name="age_adult">J\'ai 18 ans ou plus</string>
+    <string name="age_adult_hint">Je peux créer mon compte</string>
+    <string name="age_minor">J\'ai moins de 18 ans</string>
+    <string name="age_minor_hint">L\'inscription n\'est pas possible</string>
+    <string name="age_error_required">Choisissez une réponse pour continuer.</string>
+    <string name="age_blocked_title">Inscription impossible</string>
+    <string name="age_blocked_message">CHIFAA est réservée aux personnes de 18 ans et plus.\n\nSi vous avez des questions sur votre santé ou celle d\'un proche, parlez-en à un adulte de confiance, à votre médecin ou à l\'infirmière de votre établissement scolaire.</string>
+    <string name="age_blocked_action">Retour à l\'accueil</string>
+
+    <!-- ===== Inscription · 2. Consentements ===== -->
+    <string name="consent_title">Vos consentements</string>
+    <string name="consent_subtitle_fmt">Consentement %1$d sur %2$d · une finalité par écran</string>
+    <string name="consent_required">Obligatoire</string>
+    <string name="consent_optional">Facultatif</string>
+    <string name="consent_data_label">Données concernées</string>
+    <string name="consent_rights">Vous pourrez retirer ce consentement à tout moment dans « Mes données ».</string>
+    <string name="consent_version_fmt">Texte %1$s · recueilli dans l\'application</string>
+    <string name="consent_checkbox">J\'ai lu et compris ce texte</string>
+    <string name="consent_error_checkbox">Cochez la case pour confirmer que vous avez lu le texte.</string>
+    <string name="consent_accept">J\'accepte</string>
+    <string name="consent_refuse">Je refuse</string>
+
+    <string name="consent_service_title">Utilisation du service</string>
+    <string name="consent_service_text">Ce consentement permet de créer votre compte et d\'utiliser CHIFAA : le compagnon, la bibliothèque de fiches et l\'annuaire. Vous êtes identifiée par un pseudonyme ; votre numéro est chiffré et sert uniquement à la connexion.</string>
+    <string name="consent_service_data">Pseudonyme, tranche d\'âge, gouvernorat, langue, numéro de téléphone chiffré, historique des conversations.</string>
+
+    <string name="consent_health_title">Données de santé</string>
+    <string name="consent_health_text">Ce consentement ouvre votre « Espace santé » : votre parcours de soins, vos bilans et vos effets ressentis. Ces informations restent séparées de votre identité. Sans ce consentement, l\'Espace santé reste masqué.</string>
+    <string name="consent_health_data">Type de cancer, étape du parcours, traitements, effets secondaires déclarés, intérêt pour la fertilité.</string>
+
+    <string name="consent_survey_title">Enquête de satisfaction</string>
+    <string name="consent_survey_text">Ce consentement vous permet de répondre à un court questionnaire pour aider l\'équipe CHIFAA à améliorer l\'application. Vos réponses sont analysées uniquement de façon groupée.</string>
+    <string name="consent_survey_data">Besoins non couverts, sources de soutien, note de satisfaction, commentaire libre.</string>
+
+    <string name="consent_service_refused_title">Consentement nécessaire</string>
+    <string name="consent_service_refused_message">Sans ce consentement, CHIFAA ne peut pas créer votre compte. Les deux consentements suivants restent facultatifs.</string>
+    <string name="consent_reread">Relire le texte</string>
+    <string name="consent_quit">Quitter l\'inscription</string>
+
+    <!-- ===== Inscription · 3. Profil ===== -->
+    <string name="profile_title">Votre profil</string>
+    <string name="profile_subtitle">Ces informations nous aident à vous proposer des contenus et des services adaptés.</string>
+    <string name="field_age_band">Tranche d\'âge *</string>
+    <string name="field_governorate">Gouvernorat de résidence *</string>
+    <string name="field_language">Langue préférée *</string>
+    <string name="helper_governorate">Pour vous montrer les services proches de chez vous</string>
+    <string name="error_age_band">Choisissez votre tranche d\'âge.</string>
+    <string name="error_governorate">Choisissez votre gouvernorat.</string>
+    <string name="error_language">Choisissez la langue dans laquelle vous préférez échanger.</string>
+
+    <!-- ===== Inscription · 4. Téléphone ===== -->
+    <string name="phone_title_signup">Votre numéro</string>
+    <string name="phone_subtitle_signup">Vous recevrez un code pour confirmer que ce numéro vous appartient.</string>
+    <string name="phone_title_login">Bon retour parmi nous</string>
+    <string name="phone_subtitle_login">Saisissez le numéro utilisé lors de votre inscription.</string>
+    <string name="field_phone">Numéro de téléphone *</string>
+    <string name="phone_prefix" translatable="false">+216 </string>
+    <string name="helper_phone">8 chiffres, par exemple 98 123 456</string>
+    <string name="field_display_name">Prénom ou surnom</string>
+    <string name="helper_display_name">Facultatif · chiffré, visible par vous seule</string>
+    <string name="phone_privacy">Votre numéro sert uniquement à la connexion. Il est chiffré et n\'apparaît jamais dans votre profil.</string>
+    <string name="phone_send_code">Recevoir le code</string>
+    <string name="phone_error_empty">Saisissez votre numéro de téléphone.</string>
+    <string name="phone_error_chars">Utilisez uniquement des chiffres.</string>
+    <string name="phone_error_length">Le numéro doit contenir 8 chiffres (vous en avez saisi %1$d).</string>
+    <string name="phone_error_prefix">Un numéro tunisien commence par 2, 3, 4, 5, 7 ou 9.</string>
+    <string name="phone_error_exists">Ce numéro est déjà associé à un compte. Revenez à l\'accueil et choisissez « J\'ai déjà un compte ».</string>
+    <string name="phone_error_unknown">Aucun compte n\'est associé à ce numéro. Vérifiez-le ou créez un compte.</string>
+    <string name="name_error_short">Le surnom doit contenir au moins 2 lettres.</string>
+    <string name="name_error_long">Le surnom ne doit pas dépasser 30 caractères.</string>
+    <string name="name_error_chars">Utilisez uniquement des lettres, des espaces, des tirets ou des apostrophes.</string>
+    <string name="login_no_account">Pas encore de compte ?</string>
+    <string name="login_create">Créer un compte</string>
+
+    <!-- ===== Code SMS ===== -->
+    <string name="otp_title">Code de vérification</string>
+    <string name="otp_subtitle_fmt">Saisissez le code à 6 chiffres envoyé au +216 %1$s.</string>
+    <string name="otp_sms_label">SMS simulé · mode démonstration</string>
+    <string name="otp_sms_body_fmt">CHIFAA : votre code est %1$s. Il expire dans 5 minutes.</string>
+    <string name="field_otp">Code à 6 chiffres *</string>
+    <string name="otp_verify">Vérifier</string>
+    <string name="otp_resend">Renvoyer le code</string>
+    <string name="otp_resend_wait">Renvoyer le code dans %1$d s</string>
+    <string name="otp_resent">Un nouveau code a été envoyé.</string>
+    <string name="otp_error_empty">Saisissez le code reçu par SMS.</string>
+    <string name="otp_error_format">Le code contient exactement 6 chiffres.</string>
+    <string name="otp_error_wrong">Code incorrect. Il vous reste %1$d essai(s).</string>
+    <string name="otp_error_expired">Ce code a expiré. Demandez-en un nouveau.</string>
+    <string name="otp_error_locked">Trop d\'essais. Demandez un nouveau code.</string>
+
+    <!-- ===== Accueil connecté (provisoire, complété à l'étape 3) ===== -->
+    <string name="home_hello">Bonjour</string>
+    <string name="home_hello_name">Bonjour %1$s</string>
+    <string name="home_new_account">Votre compte est créé. Bienvenue !</string>
+    <string name="home_pid_label">Votre identifiant pseudonyme</string>
+    <string name="home_pid_hint">C\'est ce code, et non votre numéro, qui relie vos données.</string>
+    <string name="home_logout">Se déconnecter</string>
+    <string name="home_logout_confirm_title">Se déconnecter ?</string>
+    <string name="home_logout_confirm_message">Vous pourrez vous reconnecter avec votre numéro et un code SMS.</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="purpose_service">Utilisation du service</string>
+    <string name="purpose_health">Données de santé</string>
+    <string name="purpose_survey">Enquête</string>
+    <!-- ===== Tableau de bord ===== -->
+    <string name="dash_subtitle">Que souhaitez-vous faire aujourd\'hui ?</string>
+    <string name="dash_open_profile">Ouvrir mon profil</string>
+    <string name="dash_companion_title">Besoin d\'en parler ?</string>
+    <string name="dash_companion_text">Votre compagnon répond à partir de fiches relues par des cliniciens.</string>
+    <string name="dash_companion_action">Démarrer une conversation</string>
+    <string name="dash_section_spaces">Mes espaces</string>
+    <string name="dash_soon">Bientôt</string>
+    <string name="dash_library">Bibliothèque</string>
+    <string name="dash_library_sub">Fiches validées</string>
+    <string name="dash_health">Espace santé</string>
+    <string name="dash_health_sub">Parcours et bilans</string>
+    <string name="dash_directory">Annuaire</string>
+    <string name="dash_directory_sub">Services près de vous</string>
+    <string name="dash_my_data">Mes données</string>
+    <string name="dash_my_data_sub">Consentements, export</string>
+    <string name="dash_profile">Mon profil</string>
+    <string name="dash_profile_sub">Infos et langue</string>
+    <string name="soon_my_data">« Mes données » arrive à l\'étape 8.</string>
+
+    <!-- ===== Profil (M2) ===== -->
+    <string name="profile_screen_title">Mon profil</string>
+    <string name="profile_screen_subtitle">Modifiez vos informations à tout moment.</string>
+    <string name="profile_no_name">Sans surnom</string>
+    <string name="profile_member_since">Membre depuis le %1$s</string>
+    <string name="profile_section_info">Mes informations</string>
+    <string name="profile_section_app_language">Langue de l\'application</string>
+    <string name="profile_section_privacy">Confidentialité</string>
+    <string name="profile_app_language_text">Langue des menus et des écrans. L\'arabe s\'affiche de droite à gauche.</string>
+    <string name="helper_language">Langue dans laquelle le compagnon vous répond</string>
+    <string name="profile_save">Enregistrer les modifications</string>
+    <string name="profile_saved">Profil mis à jour.</string>
+    <string name="profile_unsaved_title">Modifications non enregistrées</string>
+    <string name="profile_unsaved_message">Vous avez modifié votre profil sans l\'enregistrer. Voulez-vous quitter quand même ?</string>
+    <string name="profile_discard">Quitter sans enregistrer</string>
+    <string name="profile_keep_editing">Continuer</string>
+    <string name="profile_my_data">Mes consentements et mes données</string>
+    <string name="lang_french" translatable="false">Français</string>
+    <string name="lang_arabic" translatable="false">العربية</string>
+
+    <!-- ===== Espace santé (M3) et bibliothèque (M4) ===== -->
+    <string name="health_title">Espace santé</string>
+    <string name="health_subtitle">Vos données de santé restent séparées de votre identité.</string>
+    <string name="health_no_consent_title">Espace santé désactivé</string>
+    <string name="health_no_consent_message">Vous n\'avez pas donné votre consentement « Données de santé ». Vous pourrez l\'activer dans « Mes données ».</string>
+    <string name="ok">D\'accord</string>
+    <string name="health_journey_title">Mon parcours</string>
+    <string name="health_journey_empty">Vous n\'avez pas encore renseigné votre parcours. Cela prend une minute, et chaque question est facultative.</string>
+    <string name="health_journey_fill">Renseigner</string>
+    <string name="health_journey_edit">Modifier</string>
+    <string name="health_label_cancer">Type</string>
+    <string name="health_label_phase">Étape</string>
+    <string name="health_label_since">Diagnostic</string>
+    <string name="health_label_treatments">Traitements</string>
+    <string name="health_not_answered">Non renseigné</string>
+    <string name="health_since_fmt">%1$s (%2$s)</string>
+    <string name="health_updated_fmt">Mis à jour le %1$s</string>
+    <string name="health_checkins_title">Mes bilans</string>
+    <string name="health_checkins_empty">Aucun bilan pour l\'instant. Notez vos effets ressentis pour suivre leur évolution.</string>
+    <string name="health_new_checkin">Nouveau bilan</string>
+    <string name="health_chart_caption">Nombre d\'effets ressentis (7 derniers bilans)</string>
+    <string name="health_no_effect">Aucun effet ressenti</string>
+    <string name="health_effects_count_fmt">%1$d effet(s)</string>
+    <string name="health_delete_title">Supprimer ce bilan ?</string>
+    <string name="health_delete_message">Le bilan du %1$s sera définitivement supprimé.</string>
+    <string name="health_delete">Supprimer</string>
+    <string name="health_deleted">Bilan supprimé.</string>
+    <string name="health_delete_hint">Appui long sur un bilan pour le supprimer.</string>
+    <string name="health_fertility_title">Fertilité</string>
+    <string name="health_fertility_yes">Vous avez demandé des informations sur la fertilité. Des fiches relues par des cliniciens vous attendent.</string>
+    <string name="health_fertility_unknown">Souhaitez-vous des informations sur la fertilité ? Indiquez-le dans « Mon parcours ».</string>
+    <string name="health_fertility_open">Voir les fiches fertilité</string>
+    <string name="health_emergency">En cas de symptôme inquiétant, contactez sans attendre votre équipe soignante.</string>
+    <string name="journey_title">Mon parcours</string>
+    <string name="journey_subtitle">Chaque question propose « Je préfère ne pas répondre ».</string>
+    <string name="field_cancer_type">Type de cancer *</string>
+    <string name="field_care_phase">Étape du parcours *</string>
+    <string name="field_diagnosis_band">Ancienneté du diagnostic *</string>
+    <string name="field_diagnosis_year">Année du diagnostic</string>
+    <string name="helper_diagnosis_year">4 chiffres, par exemple 2024</string>
+    <string name="journey_year_skip">Je préfère ne pas répondre</string>
+    <string name="field_facility">Structure de prise en charge *</string>
+    <string name="journey_treatments_label">Traitements reçus ou en cours *</string>
+    <string name="journey_treatments_hint">Plusieurs choix possibles.</string>
+    <string name="journey_fertility_label">Souhaitez-vous des informations sur la fertilité ? *</string>
+    <string name="answer_yes">Oui</string>
+    <string name="answer_no">Non</string>
+    <string name="answer_skip">Je préfère ne pas répondre</string>
+    <string name="journey_save">Enregistrer mon parcours</string>
+    <string name="journey_saved">Parcours enregistré.</string>
+    <string name="error_choose_or_skip">Choisissez une réponse ou « Je préfère ne pas répondre ».</string>
+    <string name="error_year_required">Saisissez l\'année ou cochez « Je préfère ne pas répondre ».</string>
+    <string name="error_year_format">L\'année doit contenir 4 chiffres.</string>
+    <string name="error_year_range">Saisissez une année entre 1950 et %1$d.</string>
+    <string name="error_year_band">Cette année ne correspond pas à l\'ancienneté choisie. Vérifiez l\'une des deux réponses.</string>
+    <string name="error_treatments_required">Choisissez au moins un traitement, ou « Je préfère ne pas répondre ».</string>
+    <string name="checkin_title">Nouveau bilan</string>
+    <string name="checkin_subtitle">Notez les effets ressentis. Ces informations restent privées.</string>
+    <string name="field_checkin_date">Date du bilan *</string>
+    <string name="helper_checkin_date">Touchez pour choisir une date</string>
+    <string name="checkin_date_picker_title">Date du bilan</string>
+    <string name="checkin_effects_label">Effets ressentis *</string>
+    <string name="checkin_effects_hint">Plusieurs choix possibles.</string>
+    <string name="checkin_save">Enregistrer le bilan</string>
+    <string name="checkin_saved">Bilan enregistré.</string>
+    <string name="error_checkin_date_empty">Choisissez la date du bilan.</string>
+    <string name="error_checkin_date_future">La date ne peut pas être dans le futur.</string>
+    <string name="error_checkin_date_old">La date ne peut pas remonter à plus d\'un an.</string>
+    <string name="error_checkin_exists">Un bilan existe déjà pour cette date.</string>
+    <string name="error_effects_required">Cochez au moins un effet, ou « Aucun effet ressenti ».</string>
+    <string name="library_title">Bibliothèque</string>
+    <string name="library_subtitle">Fiches d\'information relues par des cliniciens.</string>
+    <string name="library_fertility_title">Fiches fertilité</string>
+    <string name="library_fertility_subtitle">Contenus sur la fertilité, relus par des cliniciens.</string>
+    <string name="library_search_hint">Rechercher un mot-clé</string>
+    <string name="library_search_too_short">Tapez au moins 2 caractères.</string>
+    <string name="library_filter_all">Tous</string>
+    <string name="library_filter_all_languages">Toutes les langues</string>
+    <string name="library_filter_viewed">Déjà consultées</string>
+    <string name="library_count_fmt">%1$d fiche(s)</string>
+    <string name="library_empty_title">Aucune fiche trouvée</string>
+    <string name="library_empty_text">Essayez un autre mot-clé ou un autre sujet. L\'annuaire peut aussi vous orienter vers un service.</string>
+    <string name="library_open_directory">Ouvrir l\'annuaire</string>
+    <string name="library_evidence_fmt">Preuve : %1$s</string>
+    <string name="library_viewed">Consultée · disponible hors ligne</string>
+    <string name="article_title">Fiche</string>
+    <string name="article_fictional">Contenu fictif – non validé. Cette fiche sert à la démonstration du projet et ne constitue pas une information médicale.</string>
+    <string name="article_source">Source</string>
+    <string name="article_review_fmt">Relue le %1$s · prochaine revue le %2$s</string>
+    <string name="article_version_fmt">Version %1$s · %2$s</string>
+    <string name="article_not_found">Cette fiche n\'est plus disponible.</string>
+
+    <!-- ===== Annuaire (M6) ===== -->
+    <string name="directory_title">Annuaire des services</string>
+    <string name="directory_subtitle">Trouvez de l\'aide près de chez vous.</string>
+    <string name="directory_demo">Annuaire de démonstration : services et numéros fictifs.</string>
+    <string name="directory_governorate">Gouvernorat</string>
+    <string name="directory_all_governorates">Tous les gouvernorats</string>
+    <string name="directory_all_types">Tous les services</string>
+    <string name="directory_count_fmt">%1$d service(s)</string>
+    <string name="directory_empty_title">Aucun service trouvé</string>
+    <string name="directory_empty_text">Aucun service de ce type dans ce gouvernorat pour l\'instant.</string>
+    <string name="directory_empty_elsewhere_fmt">%1$d service(s) de ce type existent dans d\'autres gouvernorats.</string>
+    <string name="directory_show_all">Voir tous les gouvernorats</string>
+    <string name="directory_call">Appeler</string>
+    <string name="directory_details">Détails</string>
+    <string name="directory_verified_fmt">Vérifié le %1$s</string>
+    <string name="directory_outdated_fmt">À confirmer · dernière vérification le %1$s</string>
+    <string name="directory_no_phone">Numéro non disponible</string>
+    <string name="directory_dial_error">Aucune application de téléphone n\'est disponible.</string>
+    <string name="org_title">Fiche du service</string>
+    <string name="org_address">Adresse</string>
+    <string name="org_phone">Téléphone</string>
+    <string name="org_languages">Langues parlées</string>
+    <string name="org_cost">Coût</string>
+    <string name="org_verification">Dernière vérification</string>
+    <string name="org_verification_fmt">%1$s, par %2$s</string>
+    <string name="org_outdated_warning">Ces informations n\'ont pas été vérifiées depuis plus de 12 mois. Pensez à confirmer par téléphone avant de vous déplacer.</string>
+    <string name="org_directions">Itinéraire</string>
+    <string name="org_maps_error">Aucune application de cartes n\'est disponible.</string>
+    <string name="org_not_found">Ce service n\'est plus disponible.</string>
+    <string name="org_offline">Disponible hors ligne</string>
+
+    <!-- ===== Compagnon (M5) ===== -->
+    <string name="chat_title">Compagnon</string>
+    <string name="chat_subtitle">Réponses tirées de fiches relues par des cliniciens</string>
+    <string name="chat_history">Historique</string>
+    <string name="chat_limits">Je ne pose aucun diagnostic et ne donne aucune posologie.</string>
+    <string name="chat_welcome">Bonjour, je suis votre compagnon CHIFAA. Posez-moi une question en français, en arabe ou en darija : je chercherai la réponse dans les fiches validées par des cliniciens.</string>
+    <string name="chat_suggestions">Exemples de questions</string>
+    <string name="chat_suggestion_1">Comment gérer la fatigue ?</string>
+    <string name="chat_suggestion_2">Mes cheveux vont tomber, que faire ?</string>
+    <string name="chat_suggestion_3">Que manger pendant le traitement ?</string>
+    <string name="chat_suggestion_4">La CNAM rembourse-t-elle mes soins ?</string>
+    <string name="chat_input_hint">Écrivez votre question…</string>
+    <string name="chat_send">Envoyer</string>
+    <string name="chat_typing">Le compagnon cherche dans les fiches…</string>
+    <string name="chat_error_empty">Écrivez votre question avant d\'envoyer.</string>
+    <string name="chat_error_short">Votre message est trop court : précisez votre question.</string>
+    <string name="chat_error_long">Votre message dépasse 500 caractères. Raccourcissez-le ou envoyez-le en plusieurs fois.</string>
+    <string name="chat_answer_intro_fmt">Voici ce que dit la fiche « %1$s » :\n\n%2$s</string>
+    <string name="chat_answer_outro">Pour toute question sur votre situation, parlez-en à votre équipe soignante.</string>
+    <string name="chat_answer_other_language_fmt">Cette fiche est disponible uniquement en : %1$s.</string>
+    <string name="chat_read_card">Lire la fiche complète</string>
+    <string name="chat_no_match">Je n\'ai pas trouvé de fiche validée qui réponde à cette question. Je préfère ne pas improviser : l\'annuaire peut vous orienter vers un service adapté, et votre équipe soignante reste la mieux placée pour vous répondre.</string>
+    <string name="chat_open_directory">Ouvrir l\'annuaire</string>
+    <string name="chat_dosage">Je ne peux pas donner de posologie ni conseiller un médicament : cela dépend de votre situation, que seule votre équipe soignante connaît. Notez votre question et posez-la à votre médecin ou à votre pharmacien.</string>
+    <string name="chat_diagnosis">Je ne peux pas poser de diagnostic. Seul un médecin, après examen, peut répondre à cette question. Si quelque chose vous inquiète, prenez rendez-vous avec votre médecin ou votre équipe soignante.</string>
+    <string name="chat_distress_title">Vous n\'êtes pas seule</string>
+    <string name="chat_distress_text">Ce que vous traversez est difficile, et vous avez le droit d\'être aidée maintenant. Parlez-en dès que possible à une personne de confiance ou à votre équipe soignante. Un membre de l\'équipe CHIFAA est prévenu.</string>
+    <string name="chat_distress_resource">Ligne d\'écoute : numéro à compléter par l\'équipe CHIFAA</string>
+    <string name="chat_distress_emergency">En cas de danger immédiat : numéro d\'urgence à compléter par l\'équipe CHIFAA</string>
+    <string name="chat_distress_services">Services de soutien psychologique</string>
+    <string name="chat_rate_question">Cette réponse vous aide-t-elle ?</string>
+    <string name="chat_rate_thanks_fmt">Merci pour votre avis (%1$d/5).</string>
+    <string name="chat_rate_star_fmt">Noter %1$d sur 5</string>
+    <string name="chat_history_title">Mes conversations</string>
+    <string name="chat_history_subtitle">Vos échanges sont enregistrés sur votre téléphone.</string>
+    <string name="chat_history_empty">Aucune conversation pour l\'instant.</string>
+    <string name="chat_history_count_fmt">%1$d message(s)</string>
+    <string name="chat_history_new">Nouvelle conversation</string>
+    <string name="chat_history_support">Soutien proposé</string>
+</resources>
